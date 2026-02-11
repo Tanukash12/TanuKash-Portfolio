@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Community from "../components/Community";
+
 
 
 const Home = () => {
@@ -18,6 +20,7 @@ const Home = () => {
 
       <Navbar />
       <Hero />
+        <Community />
 
 
       
