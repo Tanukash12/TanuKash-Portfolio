@@ -85,18 +85,17 @@ const Hero = () => {
       </div>
 
       {/* RIGHT SIDE */}
-<div className="mt-16 md:mt-0 relative flex items-center justify-center">
+<div className="mt-16 md:mt-0 relative flex items-center justify-center md:justify-end md:pr-20">
+
 
   {/* glow ring */}
-  <div className="absolute w-[320px] h-[320px] rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 blur-2xl opacity-40 animate-pulse"></div>
+  <div className="absolute w-[420px] h-[420px]  rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 blur-2xl opacity-40 animate-pulse"></div>
 
-  {/* rotating border */}
-  <div className="absolute w-[280px] h-[280px] rounded-full border border-pink-500 animate-spin-slow"></div>
 
   {/* main avatar */}
-  <div className="relative w-64 h-64 rounded-full bg-black border border-pink-500 overflow-hidden">
+  <div className="relative w-80 h-80 rounded-full bg-black border border-pink-500 overflow-hidden">
   <img 
-    src="/myphoto.png" 
+    src="/assets/Tanu.jpeg"  
     alt="Tanushka"
     className="w-full h-full object-cover"
   />
