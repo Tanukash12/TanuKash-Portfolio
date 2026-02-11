@@ -1,5 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
+import { motion } from "framer-motion";
+
 
 const Projects = () => {
 
@@ -8,7 +10,7 @@ const Projects = () => {
       title: "Connect Four (4Z) — Real-Time Multiplayer Game",
       desc: "A full-stack, real-time Connect Four (4-in-a-Row) game built with WebSockets, Node.js, PostgreSQL, Kafka, and a responsive frontend. Supports Human vs Human, Human vs Bot, Reconnect handling, Leaderboard, and Event streaming.",
       tech: "React • TailwindCSS • Node.js • Express • PostgreSQL • Kafka • WebSockets",
-      github: "https://github.com/",
+      github: "https://github.com/Tanukash12/4Z",
       live: "",
     },
     {
@@ -87,7 +89,14 @@ const Projects = () => {
   ];
 
    return (
-    <section id="projects" className="py-24 px-6">
+    <motion.section
+  initial={{ opacity: 0, y: 80 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7 }}
+  viewport={{ once: true }}
+  id="projects"
+  className="py-24 px-6"
+>
       <div className="max-w-7xl mx-auto">
 
         <h2 className="text-4xl font-bold mb-16 text-center bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
@@ -158,7 +167,7 @@ const Projects = () => {
 
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
