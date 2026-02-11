@@ -13,7 +13,7 @@ const Contact = () => {
         {/* LEFT TEXT */}
         <div>
           <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
-            Let's Connect 🚀
+            Let's Connect 🤝
           </h2>
 
           <p className="text-gray-400 mb-6">
