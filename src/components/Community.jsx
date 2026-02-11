@@ -18,7 +18,8 @@ const Community = () => {
   initial={{ opacity: 0, y: 70 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.6 }}
-  viewport={{ once: true }} className="py-20 px-6">
+  viewport={{ once: true }}
+  id="community" className="py-20 px-6">
       <div className="max-w-6xl mx-auto bg-[#111] border border-white/10 rounded-3xl p-8">
 
         {/* heading */}
