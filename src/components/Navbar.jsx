@@ -27,6 +27,7 @@ const Navbar = () => {
         {/* Links */}
         <div className="flex gap-8 text-sm font-medium">
           <a href="#home" className="hover:text-pink-400 transition">Home</a>
+          <a href="#experience" className="hover:text-pink-400 transition">Experience</a>
           <a href="#projects" className="hover:text-pink-400 transition">Projects</a>
           <a href="#skills" className="hover:text-pink-400 transition">Skills</a>
           <a href="#about" className="hover:text-pink-400 transition">About</a>

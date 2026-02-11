@@ -22,7 +22,7 @@ const Community = () => {
       <div className="max-w-6xl mx-auto bg-[#111] border border-white/10 rounded-3xl p-8">
 
         {/* heading */}
-        <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-violet-500 to-red-500 bg-clip-text text-transparent">
           Growth Beyond Code 🚀
         </h2>
 
@@ -41,11 +41,16 @@ const Community = () => {
 
         {/* text */}
         <p className="mt-8 text-gray-400 leading-relaxed">
-          Everyone says joining college communities is a distraction — but for me, 
-          it became a turning point. Being actively involved in tech communities, hackathons, 
-          and events helped me grow far beyond coding. It strengthened my confidence, leadership, 
-          and ability to collaborate with diverse teams. 
-          These experiences taught me how ideas turn into real impact when people build and learn together.
+          Being part of the Microsoft Learn Student Ambassador (MLSA) community has been one of the most defining experiences of my college journey. 
+          As the Content Head, I’ve had the opportunity to manage content, lead the team, and contribute to 
+          organizing tech events and learning initiatives.
+
+          This role helped me grow beyond just technical skills — it strengthened my confidence, creativity, leadership, 
+          and ability to work with teams. From planning sessions to creating engaging content and supporting community-driven
+          learning, I learned how strong communities can truly create impact.
+
+          MLSA didn’t just enhance my technical journey — it taught me how collaboration, consistency, and sharing 
+          knowledge can empower both individuals and the entire community.
         </p>
 
       </div>
