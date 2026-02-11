@@ -11,10 +11,18 @@ const Navbar = () => {
     <nav className="fixed w-full top-0 z-50 backdrop-blur-md bg-black/40 backdrop-blur-xl border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         
-        {/* Logo */}
-        <h1 className="text-2xl font-bold tracking-wide">
-          Tanukash
-        </h1>
+        <div className="flex items-center gap-3">
+
+          {/* circle logo */}
+          <div className="w-10 h-10 rounded-full bg-black border border-white/20 flex items-center justify-center text-white font-semibold text-sm shadow-[0_0_12px_rgba(255,255,255,0.15)]">
+            <span className="tracking-widest">TK</span>
+          </div>
+
+          
+
+        </div>
+
+
 
         {/* Links */}
         <div className="flex gap-8 text-sm font-medium">
