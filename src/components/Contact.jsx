@@ -42,6 +42,7 @@ const Contact = () => {
         {/* RIGHT FORM */}
         <form className="bg-[#111] border border-white/10 rounded-2xl p-8 space-y-5">
 
+          
             <a 
             href="https://mail.google.com/mail/?view=cm&fs=1&to=tanushkakashyap506@gmail.com"
             target="_blank"
