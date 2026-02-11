@@ -42,17 +42,15 @@ const Contact = () => {
         {/* RIGHT FORM */}
         <form className="bg-[#111] border border-white/10 rounded-2xl p-8 space-y-5">
 
-            <a 
+          <a 
             href="https://mail.google.com/mail/?view=cm&fs=1&to=tanushkakashyap506@gmail.com"
             target="_blank"
-            className="hover:text-pink-400 transition"
-            >
-            <button className="w-full bg-pink-600 py-3 rounded-lg hover:bg-pink-700 transition font-medium">
-              Send Email
-            </button>
+            rel="noopener noreferrer"
+            className="block w-full text-center bg-pink-600 py-3 rounded-lg hover:bg-pink-700 transition font-medium"
+          >
+            Send Email
           </a>
-
-
+        
         </form>
 
       </div>
