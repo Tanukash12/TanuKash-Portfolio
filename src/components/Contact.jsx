@@ -17,8 +17,9 @@ const Contact = () => {
           </h2>
 
           <p className="text-gray-400 mb-6">
-            Open to internships, collaborations and exciting tech opportunities.
-            Feel free to reach out — I'll get back to you soon!
+            Actively seeking internships, collaborations, and growth-driven tech opportunities. 
+            If you’d like to work together or just connect, feel free to 
+            reach out — I’d be glad to hear from you.
           </p>
 
           <div className="flex gap-6 text-2xl text-gray-400">
