@@ -17,8 +17,8 @@ const Navbar = () => {
         <div className="flex gap-8 text-sm font-medium">
           <a href="/" className="hover:text-pink-400 transition">Home</a>
           <a href="/projects" className="hover:text-pink-400 transition">Projects</a>
-          <a href="/about" className="hover:text-pink-400 transition">About</a>
           <a href="/skills" className="hover:text-pink-400 transition">Skills</a>
+          <a href="/about" className="hover:text-pink-400 transition">About</a>
           <a href="/contact" className="hover:text-pink-400 transition">Contact</a>
         </div>
 

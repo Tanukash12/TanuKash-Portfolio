@@ -5,10 +5,7 @@ import Hero from "../components/Hero";
 import Community from "../components/Community";
 import About from "../components/About";
 import Projects from "../components/Projects";
-
-
-
-
+import Skills from "../components/Skills";
 
 const Home = () => {
   const { theme } = useContext(ThemeContext);
@@ -25,8 +22,8 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Projects/>
+      <Skills/>
       <About />
-
       <Community />
 
 
