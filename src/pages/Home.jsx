@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Community from "../components/Community";
 import About from "../components/About";
+import Projects from "../components/Projects";
+
 
 
 
@@ -22,7 +24,9 @@ const Home = () => {
 
       <Navbar />
       <Hero />
+      <Projects/>
       <About />
+
       <Community />
 
 
