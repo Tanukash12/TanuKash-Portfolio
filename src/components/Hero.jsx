@@ -46,7 +46,7 @@ const Hero = () => {
         }, []);
 
   return (
-    <section className="relative max-w-7xl mx-auto px-6 pt-32 pb-20 flex flex-col md:flex-row items-center justify-between">
+    <section id="home" className="relative max-w-7xl mx-auto px-6 pt-32 pb-20 flex flex-col md:flex-row items-center justify-between">
       
       {/* LEFT TEXT */}
             <div ref={textRef} className="max-w-xl">

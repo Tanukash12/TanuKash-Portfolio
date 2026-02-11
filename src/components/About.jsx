@@ -3,7 +3,7 @@ import { SiLeetcode } from "react-icons/si";
 
 const About = () => {
   return (
-    <section className="py-24 px-6">
+    <section id="about" className="py-24 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
         {/* LEFT TEXT */}
@@ -15,20 +15,20 @@ const About = () => {
           <p className="text-gray-400 leading-relaxed mb-4">
             I’m Tanushka — a curious learner, builder, and someone who genuinely enjoys figuring things out. 
             I work with Java, JavaScript, Python, C, Node.js, and have recently explored C# basics along with some data analysis. 
-            Currently, I’m focused on building full-stack applications using the MERN stack, while also experimenting with Java backend 
-            and related technologies — still learning, still experimenting, and honestly, loving every bit of the process.
+            Currently, I’m focused on building full-stack applications using the MERN stack, while also experimenting with Java backend and 
+            related technologies — still learning, still experimenting, and honestly, 
+            loving every bit of the process.
           </p>
 
           <p className="text-gray-400 leading-relaxed mb-4">
-           As a developer, I enjoy creating things that actually solve problems, whether it’s a simple project 
-           or something more complex. I believe real learning happens when you try, fail, debug, and then 
-           rebuild it your way. Every project teaches something new — not just about code, but about thinking and 
-           problem-solving.
+            As a developer, I enjoy creating things that actually solve problems, whether it’s a simple project or something more complex. 
+            I believe real learning happens when you try, fail, debug, and then rebuild it your way.
+             Every project teaches something new — not just about code, but about thinking and problem-solving.
           </p>
 
           <p className="text-gray-400 leading-relaxed mb-4">
-            Beyond tech, I love travelling, reading random interesting things, and meeting new people. 
-            For me, it’s always about learning, growing, and making every experience count — both in code and in life.
+           Beyond tech, I love travelling, reading random interesting things, and meeting new people. 
+           For me, it’s always about learning, growing, and making every experience count — both in code and in life.
           </p>
 
           <p className="text-gray-400 leading-relaxed">
@@ -64,7 +64,7 @@ const About = () => {
               <FaGithub />
             </a>
 
-            <a href="https://leetcode.com/u/tanushka_kash/" target="_blank" className="hover:text-pink-500">
+            <a href="https://leetcode.com/" target="_blank" className="hover:text-pink-500">
               <SiLeetcode />
             </a>
 

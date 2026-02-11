@@ -35,7 +35,7 @@ const Skills = () => {
     ];
 
   return (
-    <section className="py-24 px-6">
+    <section id="skills" className="py-24 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* heading */}
