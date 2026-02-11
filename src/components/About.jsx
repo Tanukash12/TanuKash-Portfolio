@@ -12,7 +12,7 @@ const About = () => {
             About Me
           </h2>
 
-          <p className="text-gray-400 leading-relaxed mb-4">
+          <p className="text-gray-400 leading-8 mb-6 max-w-xl text-justify">
             I’m Tanushka — a curious learner, builder, and someone who genuinely enjoys figuring things out. 
             I work with Java, JavaScript, Python, C, Node.js, and have recently explored C# basics along with some data analysis. 
             Currently, I’m focused on building full-stack applications using the MERN stack, while also experimenting with Java backend and 
@@ -20,18 +20,18 @@ const About = () => {
             loving every bit of the process.
           </p>
 
-          <p className="text-gray-400 leading-relaxed mb-4">
+          <p className="text-gray-400 leading-8 mb-6 max-w-xl text-justify">
             As a developer, I enjoy creating things that actually solve problems, whether it’s a simple project or something more complex. 
             I believe real learning happens when you try, fail, debug, and then rebuild it your way.
              Every project teaches something new — not just about code, but about thinking and problem-solving.
           </p>
 
-          <p className="text-gray-400 leading-relaxed mb-4">
+          <p className="text-gray-400 leading-8 mb-6 max-w-xl text-justify">
            Beyond tech, I love travelling, reading random interesting things, and meeting new people. 
            For me, it’s always about learning, growing, and making every experience count — both in code and in life.
           </p>
 
-          <p className="text-gray-400 leading-relaxed">
+          <p className="text-gray-400 leading-8 mb-6 max-w-xl text-justify">
             Thank you for taking the time to read. 
             Truly grateful for your presence here — let’s keep building, learning, and growing together. 🌿
           </p>

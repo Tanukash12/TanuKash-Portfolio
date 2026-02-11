@@ -68,20 +68,17 @@ const Hero = () => {
         </h2>
 
 
-        <p className="mt-6 text-gray-400">
-          Full-stack MERN developer building fast, scalable, and user-centric web apps.
+        <p className="mt-6 text-gray-400 leading-8 mb-6 max-w-xl text-justify">
+          I’m Tanushka, a CSE undergrad who enjoys building things that actually work and sometimes breaking them just to understand them better. 
+          From late-night debugging sessions to experimenting with new stacks, I’m constantly exploring and learning.
+
+          Currently, I’m focused on full-stack development with MERN, strengthening my Java & DSA skills, diving deeper into SQL, and building a strong foundation in core computer science.
+          Always learning, always building : one project at a time.
+
         </p>
+        <p className="mt-4 text-white font-medium">To Gain, To Lose, To End, To Start Again  ✨</p>
 
-        {/* Buttons */}
-        <div className="flex gap-4 mt-8">
-          <button className="px-6 py-3 bg-pink-600 rounded-xl hover:bg-pink-700 transition">
-            View Projects
-          </button>
-
-          <button className="px-6 py-3 border border-gray-500 rounded-xl hover:border-pink-500 transition">
-            Contact Me
-          </button>
-        </div>
+        
       </div>
 
       {/* RIGHT SIDE */}

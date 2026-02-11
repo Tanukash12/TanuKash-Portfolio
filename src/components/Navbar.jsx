@@ -13,7 +13,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <h1 className="text-2xl font-bold tracking-wide">
-          Tanushka.dev
+          Tanukash
         </h1>
 
         {/* Links */}
