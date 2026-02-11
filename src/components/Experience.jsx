@@ -6,7 +6,7 @@ const Experience = () => {
       role: "Software Development Intern",
       company: "Indian Army",
       duration: "April 2025 – June 2025",
-      desc: "Worked on responsive responsive and secure web interfaces with clean UI structure and role-based functionality, focusing on performance, usability, and real-world application logic.",
+      desc: "Worked on responsive web interfaces while implementing backend-driven role-based functionality, enabling secure user flows, permission control, and dynamic dashboards for different user types.",
     },
     {
       role: "MLSA Content Head",
