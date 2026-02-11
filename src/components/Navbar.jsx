@@ -8,7 +8,7 @@ const Navbar = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <nav className="fixed w-full top-0 z-50 backdrop-blur-md bg-white/10 border-b border-white/10">
+    <nav className="fixed w-full top-0 z-50 backdrop-blur-md bg-black/40 backdrop-blur-xl border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}

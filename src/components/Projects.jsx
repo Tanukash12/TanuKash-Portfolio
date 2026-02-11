@@ -108,7 +108,7 @@ const Projects = () => {
           {projectData.map((project, index) => (
             <div
               key={index}
-              className="bg-[#111] border border-white/10 rounded-2xl p-6 hover:border-pink-500 transition duration-300 hover:scale-[1.03]"
+              className="bg-[#111] border border-white/10 rounded-2xl p-6 hover:border-pink-500 transition duration-300 hover:-translate-y-2 hover:shadow-[0_10px_40px_rgba(255,0,255,0.15)] transition-all duration-300"
             >
 
               {/* show image ONLY if exists */}
