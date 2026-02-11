@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const Community = () => {
   const images = [
     "/community/DEV.jpeg",
@@ -13,7 +14,11 @@ const Community = () => {
   ];
 
   return (
-    <section className="py-20 px-6">
+    <motion.section
+  initial={{ opacity: 0, y: 70 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }} className="py-20 px-6">
       <div className="max-w-6xl mx-auto bg-[#111] border border-white/10 rounded-3xl p-8">
 
         {/* heading */}
@@ -44,7 +49,7 @@ const Community = () => {
         </p>
 
       </div>
-    </section>
+    </motion.section>
   );
 };
 

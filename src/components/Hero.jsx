@@ -1,4 +1,5 @@
 import { useRef, useEffect , useState} from "react";
+import { motion } from "framer-motion";
 
 const Hero = () => {
 
@@ -46,7 +47,11 @@ const Hero = () => {
         }, []);
 
   return (
-    <section id="home" className="relative max-w-7xl mx-auto px-6 pt-32 pb-20 flex flex-col md:flex-row items-center justify-between">
+    <motion.section
+  initial={{ opacity: 0, y: 70 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }} id="home" className="relative max-w-7xl mx-auto px-6 pt-32 pb-20 flex flex-col md:flex-row items-center justify-between">
       
       {/* LEFT TEXT */}
             <div ref={textRef} className="max-w-xl">
@@ -103,7 +108,7 @@ const Hero = () => {
       
 
 
-    </section>
+    </motion.section>
   );
 };
 

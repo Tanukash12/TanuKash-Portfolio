@@ -6,6 +6,7 @@ import {
 
 import { SiMongodb, SiMysql, SiTailwindcss } from "react-icons/si";
 import { DiDotnet } from "react-icons/di";
+import { motion } from "framer-motion";
 
 
 const Skills = () => {
@@ -35,7 +36,11 @@ const Skills = () => {
     ];
 
   return (
-    <section id="skills" className="py-24 px-6">
+    <motion.section
+  initial={{ opacity: 0, y: 70 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }} id="skills" className="py-24 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* heading */}
@@ -63,7 +68,7 @@ const Skills = () => {
 
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

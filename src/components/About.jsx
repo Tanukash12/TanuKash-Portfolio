@@ -1,9 +1,15 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { motion } from "framer-motion";
+
 
 const About = () => {
   return (
-    <section id="about" className="py-24 px-6">
+    <motion.section
+  initial={{ opacity: 0, y: 70 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }} id="about" className="py-24 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
         {/* LEFT TEXT */}
@@ -72,7 +78,7 @@ const About = () => {
 
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
