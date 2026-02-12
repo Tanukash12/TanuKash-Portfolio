@@ -42,16 +42,12 @@ const Community = () => {
 
         {/* text */}
         <p className="mt-8 text-gray-400 leading-relaxed">
-          Being part of the Microsoft Learn Student Ambassador (MLSA) community has been one of the most defining experiences of my college journey. 
-          As the Content Head, I’ve had the opportunity to manage content, lead the team, and contribute to 
-          organizing tech events and learning initiatives.
-
-          This role helped me grow beyond just technical skills — it strengthened my confidence, creativity, leadership, 
-          and ability to work with teams. From planning sessions to creating engaging content and supporting community-driven
-          learning, I learned how strong communities can truly create impact.
-
-          MLSA didn’t just enhance my technical journey — it taught me how collaboration, consistency, and sharing 
-          knowledge can empower both individuals and the entire community.
+          College wasn’t just about earning a degree for me — it was about building clarity and confidence. 
+          Over the years, I stepped beyond my comfort zone, took on leadership roles, and learned how to collaborate, 
+          communicate, and deliver under deadlines. From organizing events to leading initiatives, each experience 
+          strengthened my sense of responsibility and ability to work with people. These experiences shaped me into 
+          someone who is proactive, adaptable, and ready to take ownership, contribute meaningfully, 
+          and grow with every opportunity I step into.
         </p>
 
       </div>
