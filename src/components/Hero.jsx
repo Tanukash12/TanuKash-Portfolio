@@ -67,24 +67,32 @@ const Hero = () => {
     
     {/* TRUST TEXT */}
     <p className="text-sm text-white/60 italic mb-6 text-center md:text-right">
-      "Trust me, I'm a Full-Stack developer 😓"
+      "Trust me, I'm a Full-Stack developer."
     </p>
 
     {/* PHOTO */}
-    <div className="relative flex items-center justify-center">
-      
-      {/* glow */}
-      <div className="absolute w-75 h-75 md:w-105 md:h-105 rounded-full bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500 blur-2xl opacity-40 animate-pulse"></div>
+<div className="flex items-center justify-center">
 
-      {/* avatar */}
-      <div className="relative w-56 h-56 md:w-80 md:h-80 rounded-full bg-black border border-pink-500 overflow-hidden shadow-xl">
-        <img
-          src="/assets/Tanu.jpeg"
-          alt="Tanushka"
-          className="w-full h-full object-cover"
-        />
-      </div>
-    </div>
+  <div className="
+    w-40 h-52
+sm:w-48 sm:h-60
+md:w-52 md:h-64
+lg:w-56 lg:h-72
+xl:w-60 xl:h-80
+    rounded-2xl
+    overflow-hidden
+    shadow-lg
+    transition duration-500
+  ">
+    <img
+      src="/assets/Tanu.jpeg"
+      alt="Tanushka"
+      className="w-full h-full object-cover rounded-2xl"
+    />
+  </div>
+
+</div>
+
   </div>
 
   {/* LEFT SIDE TEXT */}
