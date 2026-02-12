@@ -70,7 +70,7 @@ const About = () => {
               <FaGithub />
             </a>
 
-            <a href="https://leetcode.com/" target="_blank" className="hover:text-pink-500">
+            <a href="https://leetcode.com/u/tanushka_kash/" target="_blank" className="hover:text-pink-500">
               <SiLeetcode />
             </a>
 
